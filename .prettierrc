@@ -1,6 +1,10 @@
 {
-  "endOfLine": "lf",
-  "printWidth": 80,
+  "trailingComma": "es5",
+  "printWidth": 120,
   "tabWidth": 2,
-  "trailingComma": "es5"
+  "semi": false,
+  "singleQuote": true,
+  "useTabs": false,
+  "endOfLine": "auto"
 }
+

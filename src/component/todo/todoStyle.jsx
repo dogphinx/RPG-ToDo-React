@@ -1,11 +1,11 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
   align-items: center;
-`
+`;
 export const Tutorial = styled.ul`
   display: flex;
   flex-direction: column;
@@ -13,12 +13,13 @@ export const Tutorial = styled.ul`
   justify-content: center;
   align-items: center;
   padding: 30px;
-`
+`;
 export const ListItem = styled.li`
   padding: 10px;
   border: 1px solid #ccc;
   width: 90%;
-`
+  list-style: none;
+`;
 export const Section = styled.div`
   display: flex;
   flex-direction: column;
@@ -27,20 +28,21 @@ export const Section = styled.div`
   flex: 0.2;
   justify-content: center;
   align-items: center;
-`
+`;
 
 export const ListWrap = styled.ul`
   width: 100%;
   flex: 1;
-`
+`;
 export const ListType = styled.li`
   width: 100%;
   height: 30px;
   border: 1px solid #ccc;
   clear: both;
-`
+  list-style: none;
+`;
 
-export const InputToDoList = styled.div``
+export const InputToDoList = styled.div``;
 export const DoneButton = styled.a`
   width: 20px;
   height: 20px;
@@ -52,8 +54,8 @@ export const DoneButton = styled.a`
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-`
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+`;
 export const DeleteButton = styled.a`
   width: 20px;
   height: 20px;
@@ -65,8 +67,8 @@ export const DeleteButton = styled.a`
   transform: translateY(-50%);
   text-align: center;
   margin-right: 7px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-`
-export const Img = styled.div``
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+`;
+export const Img = styled.div``;
 
-export const Bucket = styled.div``
+export const Bucket = styled.div``;

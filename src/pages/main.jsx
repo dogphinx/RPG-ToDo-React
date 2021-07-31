@@ -4,9 +4,11 @@ import StatusContainer from '../container/StatusContainer'
 import TodoContainer from '../container/TodoContainer'
 import '../App.css'
 import styled from 'styled-components'
+import HeaderContainer from '../container/HeaderContainer'
 export default function Main() {
   return (
     <Home className="App">
+      <HeaderContainer />
       <Profile>
         <ProfileContainer />
       </Profile>
