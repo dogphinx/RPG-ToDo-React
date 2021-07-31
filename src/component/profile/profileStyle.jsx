@@ -5,7 +5,12 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   border: 1px solid #dddddd;
+  background-color: black;
+  color: white;
+  width: 300px;
+  text-shadow: 1px 1px 1px ${(props) => props.theme.colors.textshadow};
   height: 100%;
+  margin-right: 60px;
   @media (max-width: 600px) {
     display: none;
   } ;
@@ -26,7 +31,7 @@ export const Inventory = styled.div`
   width: 100%;
   height: 100%;
   margin-top: 30px;
-  background-color: azure;
+  background-color: black;
 `
 export const Item = styled.div`
   display: inline-flex;
@@ -35,16 +40,16 @@ export const Item = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: black;
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid ${(props) => props.theme.colors.textshadow};
   cursor: pointer;
 `
 export const RowItemWrap = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 2px solid ${(props) => props.theme.colors.punkred};
 `
 export const ColumnItemWrap = styled.div`
   display: flex;
@@ -65,5 +70,10 @@ export const Expbar = styled.div`
 export const Headline = styled.h1`
   text-align: center;
   margin: 10px;
+  background-color: black;
+  color: white;
 `
-export const Text = styled.p``
+export const Text = styled.p`
+  background-color: black;
+  color: white;
+`

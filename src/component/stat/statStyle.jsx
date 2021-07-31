@@ -5,12 +5,17 @@ export const Container = styled.div`
   flex-direction: column;
   align-content: center;
   align-items: center;
+  background-color: black;
+  color: white;
+  width: 300px;
 `
 export const Box = styled.div`
   width: 100%;
   height: 100%;
 `
 
-export const Image = styled.img``
+export const Image = styled.img`
+  width: 100%;
+`
 
 export const History = styled.div``

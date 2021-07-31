@@ -14,23 +14,26 @@ export default function Main() {
       </Profile>
       <Todo>
         <TodoContainer />
-      </Todo>
-      <Status>
         <StatusContainer />
-      </Status>
+      </Todo>
+      {/* <Status>
+      </Status> */}
     </Home>
   )
 }
 
 const Home = styled.div`
   display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
 `
-const Profile = styled.div`
-  flex: 1;
-`
+const Profile = styled.div``
 const Todo = styled.div`
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  flex: 0.8;
 `
-const Status = styled.div`
-  flex: 1;
-`
+const Status = styled.div``

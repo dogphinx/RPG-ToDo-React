@@ -4,7 +4,7 @@ import { firebaseapp } from '../lib/firebase.prod'
 import { FirebaseContext } from '../context/firebaseContext'
 import * as ROUTES from '../constants/routes'
 import { Form } from '../component'
-import Back from '../component/media/Backs.mp4'
+import Back from '../component/media/Back2.mp4'
 export default function SignIn() {
   const history = useHistory()
   // 기록을 도와줍니다.

@@ -13,6 +13,7 @@ export const Container = styled.div`
   padding: 60px 40px;
   margin-bottom: 100px;
   margin-top: 40px;
+  box-shadow: 1px 1px 1px ${(props) => props.theme.colors.yellow};
 `
 export const Decorate = styled.div`
   z-index: 0;
@@ -32,7 +33,7 @@ export const Decorate = styled.div`
 `
 
 export const Error = styled.div`
-  background: #e87c03;
+  background: ${(props) => props.theme.colors.punkred};
   border-radius: 4px;
   font-size: 14px;
   margin: 0 0 16px;
@@ -80,7 +81,7 @@ export const Link = styled(ReachRouterLink)`
 export const Input = styled.input`
   border-radius: 4px;
   border: 0;
-  color: green;
+  color: #008000;
   height: 50px;
   line-height: 50px;
   padding: 5px 20px;

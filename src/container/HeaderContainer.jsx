@@ -6,7 +6,7 @@ function HeaderContainer({ children }) {
     <Header>
       <Header.Nav>
         <Header.Logo to={ROUTES.HOME}>Home</Header.Logo>
-        <Header.Link to={ROUTES.SIGN_IN}>Sign_In</Header.Link>
+        <Header.Logo to={ROUTES.SIGN_IN}>Sign_In</Header.Logo>
       </Header.Nav>
       {children}
     </Header>
